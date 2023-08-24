@@ -8,7 +8,7 @@ import {
   NavItem,
 } from 'reactstrap'
 import { NavLink } from 'react-router-dom';
-import IceCreamLogo from '../assets/img/logo.avif'
+import MoraaLogo from '../assets/img/moraa creamery.png'
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -16,7 +16,7 @@ const Header = () => {
   return (
     <Navbar dark color='primary' sticky='top' expand='md'>
       <NavbarBrand className='ms-5' href='/'>
-        <img src={IceCreamLogo} alt='iceCream Logo' className='float-start' />
+        <img src={MoraaLogo} alt='iceCream Logo' className='float-start' />
         <h1 className='mt-1'>Moraa Icecream</h1>
       </NavbarBrand>
       <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />

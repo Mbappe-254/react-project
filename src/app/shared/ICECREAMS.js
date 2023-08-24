@@ -1,6 +1,6 @@
-import iceCreamCupImg from '../assets/img/iceCreamCupImg';
-import differentKinds from '../assets/img/differentKinds';
-import hotFudge from '../assets/img/hotFudge';
+import iceCreamCupImg from '../assets/img/iceCreamCupImg.jpg';
+import differentKinds from '../assets/img/differentKinds.jpg';
+import hotFudge from '../assets/img/hotFudge.jpg';
 
 export const ICECREAMS = [
 {  
@@ -15,7 +15,7 @@ export const ICECREAMS = [
 },
 
 {  
-    id: 0,
+    id: 1,
     name: 'differentKinds',
     image: differentKinds,
     elevation: 1000,
@@ -26,7 +26,7 @@ export const ICECREAMS = [
 },
 
 {  
-    id: 0,
+    id: 2,
     name: 'hotFudge',
     image: hotFudge,
     elevation: 1000,
@@ -35,5 +35,6 @@ export const ICECREAMS = [
     'Who doesn’t love ice cream, after all, it’s one of the world’s favorite desserts?While you’re enjoying your ice cream, you may start to think about some words to describe ice cream to explain your experience to others.'
 
 }
+
 ];
 

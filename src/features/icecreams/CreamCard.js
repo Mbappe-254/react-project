@@ -23,4 +23,4 @@ const CreamCard = ({icecream}) => {
     );
 }
 
-export default CampsiteCard;
+export default CreamCard;
