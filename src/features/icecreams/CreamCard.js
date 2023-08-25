@@ -1,8 +1,8 @@
 import { Card, CardImg, CardImgOverlay,CardTitle} from 'reactstrap';
 import { Link} from 'react-router-dom';
 
-const CreamCard = ({icecream}) => {
-    const {id, image, name} = icecream;
+const CreamCard = ({icecreams}) => {
+    const {id, image, name} = icecreams;
     return(
         <Link to={`${id}`}>
     <Card>

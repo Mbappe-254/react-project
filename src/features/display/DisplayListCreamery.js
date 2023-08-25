@@ -1,14 +1,14 @@
 import { useSelector } from 'react-redux';
 import { Col, Row } from 'reactstrap';
 import { selectFeaturedCampsite } from '../campsites/campsitesSlice';
-import { selectFeaturedPromotion } from '../promotions/promotionsSlice';
+import { selectFeaturedAd } from '../ads/adsSlice';
 import { selectFeaturedPartner } from '../partners/partnersSlice';
 import AnimatedCreamery from './AnimatedCreamery';
 
 const DisplayListCreamery = () => {
     const items = useSelector((state) => [
         selectFeaturedCampsite(state),
-        selectFeaturedPromotion(state),
+        selectFeaturedAd(state),
         selectFeaturedPartner(state)
     ]);
         

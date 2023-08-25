@@ -8,7 +8,7 @@ import {
   NavItem,
 } from 'reactstrap'
 import { NavLink } from 'react-router-dom';
-import MoraaLogo from '../assets/img/moraa creamery.png'
+import MoraaLogo from '../../src/app/assets/img/moraa creamery.png'
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
