@@ -1,8 +1,8 @@
-import { createSlice } from "@reduxjs/toolkit";
-import { ICECREAMS } from "../../app/shared/ICECREAMS";
+import { createSlice } from '@reduxjs/toolkit';
+import { ICECREAM } from '../../app/shared/ICECREAMS';
 
 const initialState = {
-  icecreamArray: ICECREAMS
+  icecreamArray: ICECREAM
 };
 
 const creamsSlice = createSlice({
@@ -13,12 +13,10 @@ const creamsSlice = createSlice({
 export const icecreamsReducer = creamsSlice.reducer;
 
 export const selectAllIcecreams = (state) => {
-  return state.icecreams.icecreamsArray;
+  return state.icecreams.icecreamArray;
 };
-// export const selectRandomCampsite = () => {
-// return CAMPSITES[Math.floor(CAMPSITES.length * Math.random())];
 export const selectCreamById = (id) => (state) => {
-  return state.icecreams.icecreamsArray.find(
+  return state.icecreams.icecreamArray.find(
     (icecream) => icecream.id === parseInt(id)
   );
 };

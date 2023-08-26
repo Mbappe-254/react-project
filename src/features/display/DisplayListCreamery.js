@@ -1,9 +1,9 @@
 import { useSelector } from "react-redux";
-import { Col, Row } from "reactstrap";
-import { selectFeaturedCreams } from "../icecreams/CreamsSlice";
-import { selectFeaturedAd } from "../ads/adsSlice";
-import { selectFeaturedPartner } from "../partners/PartnersSlice";
-import AnimatedCreamery from "./AnimatedCreamery";
+import { Col, Row } from 'reactstrap';
+import { selectFeaturedCreams } from '../icecreams/CreamsSlice';
+import { selectFeaturedAd } from '../ads/adsSlice';
+import { selectFeaturedPartner } from '../partners/PartnersSlice';
+import AnimatedCreamery from './AnimatedCreamery';
 
 const DisplayListCreamery = () => {
   const items = useSelector((state) => [

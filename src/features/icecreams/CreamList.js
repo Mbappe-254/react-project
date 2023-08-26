@@ -1,7 +1,7 @@
-import { useSelector } from "react-redux";
-import { Col, Row } from "reactstrap";
-import CreamCard from "./CreamCard";
-import { selectAllIcecreams } from "./CreamsSlice";
+import { useSelector } from 'react-redux';
+import { Col, Row } from 'reactstrap';
+import CreamCard from './CreamCard';
+import { selectAllIcecreams } from './CreamsSlice';
 
 const CreamList = () => {
   const icecreams = useSelector(selectAllIcecreams);

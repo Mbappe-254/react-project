@@ -16,5 +16,5 @@ export const promotionsReducer = adsSlice.reducer;
 
 export const selectFeaturedAd = (state) => {
     return state.ads.adsArray.find(
-        (ad) => ad.featured);
+        (ads) => ads.featured);
 };

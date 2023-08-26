@@ -1,4 +1,4 @@
-import { Card, CardImg, CardText, CardBody, Col } from "reactstrap";
+import { Card, CardImg, CardText, CardBody, Col } from 'reactstrap';
 
 const CreamDetails = ({ icecream }) => {
   const { image, name, description } = icecream;
