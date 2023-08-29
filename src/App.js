@@ -10,7 +10,9 @@ function App() {
     <div className="App">
     <Header/>
     <Routes>
+
       <Route path='/' element={<HomePage />} />
+
     </Routes>
 
     <Footer/>

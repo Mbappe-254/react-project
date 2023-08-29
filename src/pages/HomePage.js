@@ -1,12 +1,12 @@
 import { Container } from 'reactstrap';
-import DisplayListCreamery from '../features/display/DisplayListCreamery';
+import DisplayList from '../features/display/DisplayList';
 import SubHeader from '../components/SubHeader';
 
 const HomePage =() => {
     return (
         <Container>
             <SubHeader current ='Home'/>
-            <DisplayListCreamery/>
+            <DisplayList/>
         </Container>
     )
 };
