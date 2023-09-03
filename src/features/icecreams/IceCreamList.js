@@ -1,10 +1,10 @@
 import { useSelector } from 'react-redux';
 import { Col, Row } from 'reactstrap';
 import IceCreamCard from "./IceCreamCard";
-import { selectAllIcecreams } from './iceCreamSlice';
+import { selectAllIceCreams } from './iceCreamSlice';
 
-const List = () => {
-  const icecreams = useSelector(selectAllIcecreams);
+const IceCreamList = () => {
+  const icecreams = useSelector(selectAllIceCreams);
   console.log('icecreams:', icecreams);
 
   return (

@@ -1,11 +1,11 @@
 import { Container } from 'reactstrap';
 import DisplayList from '../features/display/DisplayList';
-import SubHeader from '../components/SubHeader';
+// import SubHeader from '../components/SubHeader';
 
 const HomePage =() => {
     return (
         <Container>
-            <SubHeader current ='Home'/>
+            {/* <SubHeader current = 'Our Flavors'/> */}
             <DisplayList/>
         </Container>
     )
