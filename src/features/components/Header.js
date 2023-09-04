@@ -14,8 +14,8 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <Navbar dark color="primary" sticky="top" expand="md">
-      <NavbarBrand className="ms-5" href="/">
+    <Navbar dark color="sucess" sticky="top" expand="md">
+      <NavbarBrand className="ms-4" href="/">
         <img src={MoraaLogo} alt="iceCream Logo" className="float-start" />
         <h1 className="mt-1"> Moraa Icecream </h1>
       </NavbarBrand>
@@ -49,7 +49,7 @@ const Header = () => {
           </NavItem>
           <NavItem>
             <NavLink className="nav-link" to="/contact">
-              <i className="fa fa-address-card fa-lg" /> sign Up for Newsletter
+              <i className="fa fa-address-card fa-lg" /> Sign Up for Newsletter
             </NavLink>
           </NavItem>
         </Nav>

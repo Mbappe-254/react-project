@@ -20,7 +20,7 @@ const DisplayList = () => {
 
                 return (
                     item && (
-                        <Col md className='m-1' key={idx}>
+                        <Col md className='m-2' key={idx}>
                             <AnimatedDisplay item={item} />
                         </Col>
                     )
